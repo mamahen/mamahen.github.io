@@ -16,6 +16,24 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+img#logo{
+    max-width: 300px;
+    height: auto;
+}
+
+img#footer-logo{
+    max-width: 150px;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.makeappt-btn{
+    display: block;
+    max-width: 300px;
+    margin: auto;
+    margin-top: 20px;
+}
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;

@@ -27,11 +27,9 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
 </head>
 
 <body>
-
     <!-- Navigation -->
     <!-- <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a> -->
     <nav id="sidebar-wrapper">
@@ -58,17 +56,17 @@
         </ul>
     </nav>
 
-    <!-- Header -->
+    <!-- Header Logo-->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <h1>Ice Nail</h1>
+            <!-- <h1>Ice Nail</h1> -->
+            <img id="logo" src="/img/Icenail_logo.jpg">
             <!-- <h3>Free Bootstrap Themes &amp; Templates</h3> -->
-            <br>
-            <a href="#footer" class="btn btn-dark btn-lg"><div>Make An Appointment</div><div>電話預約</div></a>
+            <a href="#footer" class="btn btn-dark btn-lg makeappt-btn"><div>Make An Appointment</div><div>電話預約</div></a>
         </div>
     </header>
 
-    <!-- About -->
+    <!-- About / Testimonial -->
     <section id="about" class="about">
         <div class="container">
             <div class="row">
@@ -100,9 +98,10 @@
                                 <i class="fa fa-cloud fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong><div>修手甲</div><div>Manicure</div></strong>
+                                    <strong><div>傳統修甲</div></strong>
+                                    <div>Traditional Manicure</div>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p>(试做價) $98</p>
                                 <!-- <a href="#" class="btn btn-light">Learn More</a> -->
                             </div>
                         </div>
@@ -113,9 +112,10 @@
                                 <i class="fa fa-compass fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong><div>修趾甲</div><div>Pedicure</div></strong>
+                                    <strong><div>快速修腳</div></strong>
+                                    <div>Express Pedicure</div>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p>(试做價) $178</p>
                                 <!-- <a href="#" class="btn btn-light">Learn More</a> -->
                             </div>
                         </div>
@@ -126,9 +126,10 @@
                                 <i class="fa fa-flask fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong><div>膠指甲油</div><div>Gel Nail</div></strong>
+                                    <strong><div>可卸膠</div></strong>
+                                    <div>Shellac Gel</div>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p>(現金價) $150</p>
                                 <!-- <a href="#" class="btn btn-light">Learn More</a> -->
                             </div>
                         </div>
@@ -139,9 +140,10 @@
                                 <i class="fa fa-shield fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong><div>美肌護理</div><div>Treatments</div></strong>
+                                    <strong><div>光療樹脂甲</div></strong>
+                                    <div>Full Set UV Gel Nail</div>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p>(正價) $298</p>
                                 <!-- <a href="#" class="btn btn-light">Learn More</a> -->
                             </div>
                         </div>
@@ -155,12 +157,7 @@
         <!-- /.container -->
     </section>
 
-    <!-- Callout -->
-    <aside class="callout">
-        <div class="text-vertical-center">
-            <h1>歡迎打電話查詢</h1>
-        </div>
-    </aside>
+
 
     <!-- Portfolio -->
     <section id="portfolio" class="portfolio">
@@ -210,15 +207,22 @@
     </section>
 
     <!-- Call to Action -->
-    <aside class="call-to-action bg-primary">
+<!--     <aside class="call-to-action bg-primary">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h3>電話預約電話預約電話預約電話預約</h3>
                     <a href="#footer" class="btn btn-lg btn-dark">電話預約</a>
-                   <!--  <a href="#" class="btn btn-lg btn-light">Look at Me!</a> -->
+                    <a href="#" class="btn btn-lg btn-light">Look at Me!</a>
                 </div>
             </div>
+        </div>
+    </aside> -->
+
+    <!-- Callout -->
+    <aside class="callout">
+        <div class="text-vertical-center">
+            <h1>歡迎打電話查詢</h1>
         </div>
     </aside>
 
@@ -234,20 +238,25 @@
         <!-- </iframe> -->
     <!-- </section> -->
 
-    <!-- Footer -->
+    <!-- Footer Address and Details-->
     <footer id="footer">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Ice Nail</strong>
-                    </h4>
+                    <!-- <h4><strong>Ice Nail</strong></h4> -->
+                    <img id="footer-logo" src="/img/Icenail_logo.jpg">
                     <p>Unit 05, 5/F, Haleson Building, 1 Jubilee Steet, Central, Hong Kong</p>
                     <p>中環祖庇利街一號喜訊大厦五樓05室</p>
+                    <br>
                     <ul class="list-unstyled">
                         <li><i class="fa fa-phone fa-fw"></i> (852) 2810 7779</li>
                         <!-- <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:name@example.com">name@example.com</a>
                         </li> -->
                     </ul>
+                    <br>
+                    <p>營業時間</p>
+                    <p>星期一至星期五 11:30am-8:30pm</p>
+                    <p>星期六日及公众假期 12:00pm-7:00pm</p>
                     <br>
                     <ul class="list-inline">
                         <li>
@@ -262,7 +271,7 @@
                     </ul>
                     <hr class="small">
                     <p class="text-muted">Copyright &copy; Ice Nail 2015</p>
-                    <p class="text-muted">Website Powered by <a href="http://www.cassiemak.com">Cassie Mak</a></p>
+                    <!-- <p class="text-muted">Website Powered by <a href="http://www.cassiemak.com">Cassie Mak</a></p> -->
                 </div>
             </div>
         </div>
